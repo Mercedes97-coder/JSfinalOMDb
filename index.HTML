@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b49dafaee0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="img__wrapper--banner">
+        <img src="./video-1668906_1280.jpg" class="imgage__banner" alt="" />
+      </div>
+      <div class="nav__container">
+        <div class="nav__bar">
+          <div class="nav__bar--logo">
+            <img src="./OMDb..jpg" class="nav__bar--logo-img" alt="" />
+          </div>
+          <ul class="nav__bar--links">
+            <li class="nav__bar--link">Home</li>
+            <li class="nav__bar--link">Find Your Movie</li>
+            <li class="nav__bar--link btn">Sign In</li>
+          </ul>
+        </div>
+        <div class="search__bar--wrapper">
+            <h1 class="search__bar--title">
+                Browse Movie Titles
+            </h1>
+          <div class="search__bar">
+            <form action="/search" method="get">
+              <input type="searchInput" placeholder="Search for a movie" />
+              <i class="fa-solid fa-magnifying-glass"
+                style="color: #dd364a"
+              ></i>
+              <div id="searchResults"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section id="movies">
+    <div class="movies__container">
+        <div class="movies__row">
+            <div class="movie-list">
+                <div class="movie">
+                    <div class="movie-card">
+                    <div class="movie-card__container">
+                        <h3>Movie's Title</h4>
+                        <p><b>Year:</b> 1997</p>
+                        <p><b>Rated:</b> PG-13</p>
+                        <p><b>Genre:</b> Action-Adventure</a></p>
+                    </div>
+                    <div class="movie-card__img--wrapper">
+                        <div class="movie-card__img">
+                            Poster
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <footer></footer>
+  </body>
+</html>
