@@ -119,7 +119,7 @@ MOVIE SECTION
 }
 
 .movies__container {
-    padding: 80px 0;;
+    padding: 100px 0;;
 }
 
 .movies__row {
@@ -129,6 +129,19 @@ MOVIE SECTION
   max-width: 1200px;
   }
 
-  
+  .movie-card {
+    display: flex;
+    flex-direction: column;
+    border: none; 
+    box-shadow: 8px 8px 12px rgba(245, 222, 179, 0.8);
+    border-radius: 20px;
+    max-width: 45%;
+    padding: 20px;    
+  }
+
+  .movie-card__container {
+    padding: 12px;
+  }
+
 
 
