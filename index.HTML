@@ -6,9 +6,10 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css" />
     <script
-    src="https://kit.fontawesome.com/b49dafaee0.js"
-    crossorigin="anonymous"></script>
-    
+      src="https://kit.fontawesome.com/b49dafaee0.js"
+      crossorigin="anonymous"
+    ></script>
+
     <script src="app.js"></script>
   </head>
   <body>
@@ -24,18 +25,20 @@
           <ul class="nav__bar--links">
             <li class="nav__bar--link">Home</li>
             <li class="nav__bar--link">Find Your Movie</li>
-            <li class="nav__bar--link btn">Sign In </li>
+            <li class="nav__bar--link btn">Sign In</li>
           </ul>
         </div>
         <div class="search__bar--wrapper">
-            <h1 class="search__bar--title">
-                Browse Movie Titles
-            </h1>
+          <h1 class="search__bar--title">Browse Movie Titles</h1>
           <div class="search__bar">
             <form action="/search" method="get">
-              <input type="searchInput" placeholder="Search for a movie"
-              onkeypress="if(event.key === 'Enter') searchMovies()" />
-              <i class="fa-solid fa-magnifying-glass search__btn"
+              <input
+                type="searchInput"
+                placeholder="Search for a movie"
+                onkeypress="if(event.key === 'Enter') searchMovies()"
+              />
+              <i
+                class="fa-solid fa-magnifying-glass search__btn"
                 style="color: #c65764"
                 onclick="searchMovies()"
               ></i>
@@ -47,32 +50,31 @@
     </nav>
     <section id="movies">
       <div class="place-holder__img--wrapper">
-        <img src="./undraw_movie-night_pkvp beige.svg" class="place-holder__img" alt="">
+        <img
+          src="./undraw_movie-night_pkvp beige.svg"
+          class="place-holder__img"
+          alt=""
+        />
       </div>
-    <div class="movies__container">
+      <div class="movies__container">
         <div class="movies__row">
-            <div class="movie-list">
-
-            </div>
+          <div class="movie-list"></div>
         </div>
-    </div>
+      </div>
     </section>
     <footer>
-      <div class="img__wrapper--banner">
-        <img src="./video-1668906_1280.jpg" class="imgage__banner" alt="" />
-      </div>
-      <div class="nav__container">
+      <div class="nav__container footer__container">
         <div class="nav__bar">
-          <div class="nav__bar--logo">
+          <div class="nav__bar--logo footer__logo">
             <img src="./OMDb..jpg" class="nav__bar--logo-img" alt="" />
           </div>
           <ul class="nav__bar--links footer__links">
             <li class="nav__bar--link">Home</li>
             <li class="nav__bar--link">Find Your Movie</li>
-            <li class="nav__bar--link btn">Sign In </li>
+            <li class="nav__bar--link btn">Sign In</li>
           </ul>
         </div>
-
+      </div>
     </footer>
   </body>
 </html>
